@@ -1,4 +1,4 @@
-package com.capgemini.dealer;
+package com.storesmanagementsystem.dealer;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
