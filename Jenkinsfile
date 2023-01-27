@@ -29,7 +29,7 @@ pipeline {
         stage ('Delpoy') {
             steps {
               script {
-		                sh "../jenkins/deploy.sh chanduv33/dealer-service:\"${env.BUILD_NUMBER}\""
+		                sh "../jenkins/deploy.sh \"${env.BUILD_NUMBER}\""
 	            }   
             }           
         }
